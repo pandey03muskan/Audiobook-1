@@ -39,10 +39,10 @@ def talk():
 def select():
     voices=speaker.getProperty("voices")
     collect=page_version_box.get()
-    if collect=='male':
-        speaker.setProperty('voice', voices[0].id)
-    elif collect=='female':
+    if collect=='female':
         speaker.setProperty('voice', voices[1].id)
+    elif collect=='male':
+        speaker.setProperty('voice', voices[0].id)
 def pause():
     app.destroy()    
 
