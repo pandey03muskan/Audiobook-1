@@ -9,7 +9,7 @@ from tkinter import filedialog
 #tkinter gui making
 bg='#D8B5FF'
 app=Tk()
-app.geometry('400x500')
+app.geometry('400x490')
 app.title('Audiobook')
 app.configure(bg=bg)
 
